@@ -1,0 +1,75 @@
+/* на все сразу */
+body {
+    background-color: #FFFFFF;
+    color: #434455;
+}
+
+ul {
+   list-style: none; 
+}
+
+:root {
+    --primary-text-color: #2E2F42;
+    --title-text-color: #434455;
+}
+
+/* nav */
+
+.logo {
+    color: #4D5AE5;
+}
+
+.logo-header-studio {
+    color: var(--primary-text-color)
+}
+
+.nav-link a {
+    color: var(--primary-text-color)
+}
+
+.nav-address a {
+    color: var(--title-text-color)
+}
+
+/* main */
+
+/* hero */
+.hero-title, .hero-button {
+    color: #FFFFFF;
+}
+
+/* tactics */
+
+.tactics-title {
+    color: var(--primary-text-color)
+}
+
+.tactics-text {
+    color: var(--title-text-color);
+}
+
+/* What are we doing */
+
+.our-actions {
+    color: var(--primary-text-color);
+}
+
+/* Our Team */
+
+.team, .team-name {
+    color: var(--primary-text-color);
+}
+
+.team-profession {
+    color: var(--title-text-color);
+}
+
+/* footer */
+
+.logo-footer-studio {
+    color: #F4F4FD;
+}
+
+.title-footer {
+    color: #F4F4FD;
+}
