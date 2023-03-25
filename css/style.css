@@ -13,7 +13,7 @@ ul {
     --title-text-color: #434455;
 }
 
-/* nav */
+/* header */
 
 .logo {
     color: #4D5AE5;
@@ -31,7 +31,19 @@ ul {
     color: var(--title-text-color)
 }
 
-/* main */
+
+/* footer */
+
+.logo-footer-studio {
+    color: #F4F4FD;
+}
+
+.title-footer {
+    color: #F4F4FD;
+}
+
+
+/* main Web*/
 
 /* hero */
 .hero-title, .hero-button {
@@ -64,12 +76,22 @@ ul {
     color: var(--title-text-color);
 }
 
-/* footer */
 
-.logo-footer-studio {
-    color: #F4F4FD;
+/* main Portfolio */
+
+.portfolio-button {
+    color: #4D5AE5;
 }
 
-.title-footer {
-    color: #F4F4FD;
+.portfolio-button:hover, .portfolio-button:focus {
+    color: #FFFFFF;
+}
+
+
+.img-name {
+    color: var(--primary-text-color);
+}
+
+.img-desc {
+    color: var(--title-text-color);
 }
