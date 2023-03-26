@@ -2,7 +2,8 @@
 body {
     background-color: #FFFFFF;
     color: #434455;
-    font-family: Roboto, sans-serif
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
 }
 
 ul {
@@ -18,18 +19,21 @@ ul {
 
 .logo {
     color: #4D5AE5;
-}
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+}   
 
 .logo-header-studio {
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
 }
 
 .nav-link a {
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
 }
 
 .nav-address a {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
 }
 
 
@@ -37,6 +41,7 @@ ul {
 
 .logo-footer-studio {
     color: #F4F4FD;
+    letter-spacing: 0.03em;
 }
 
 .title-footer {
@@ -49,6 +54,10 @@ ul {
 /* hero */
 .hero-title, .hero-button {
     color: #FFFFFF;
+}
+
+.hero-button {
+    letter-spacing: 0.04em;
 }
 
 /* tactics */
@@ -83,6 +92,7 @@ ul {
     color: #4D5AE5;
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
+    letter-spacing: 0.04em;
 }
 
 .portfolio-button:hover, .portfolio-button:focus {
