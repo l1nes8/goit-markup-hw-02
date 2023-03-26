@@ -81,11 +81,15 @@ ul {
 
 .portfolio-button {
     color: #4D5AE5;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
 }
 
 .portfolio-button:hover, .portfolio-button:focus {
     color: #FFFFFF;
+    background-color: #4D5AE5;
 }
+
 
 
 .img-name {
