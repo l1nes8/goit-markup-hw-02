@@ -4,6 +4,8 @@ body {
     color: #434455;
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5; 
 }
 
 ul {
@@ -21,19 +23,28 @@ ul {
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
     letter-spacing: 0.03em;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    text-decoration: none;
 }   
 
 .logo-header-studio {
     color: var(--primary-text-color);
-    letter-spacing: 0.03em;
 }
 
 .nav-link a {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
 }
 
 .nav-address a {
     color: var(--title-text-color);
+    font-size: 16px;
+    line-height: 1.5; 
 }
 
 
@@ -41,50 +52,81 @@ ul {
 
 .logo-footer-studio {
     color: #F4F4FD;
-    letter-spacing: 0.03em;
 }
 
 .title-footer {
     color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 
 /* main Web*/
 
 /* hero */
-.hero-title, .hero-button {
+.hero-title {
     color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1x;
+    text-align: center;
 }
 
 .hero-button {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
     letter-spacing: 0.04em;
+    /* background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;  */
+    
 }
 
 /* tactics */
 
 .tactics-title {
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
-.tactics-text {
-    color: var(--title-text-color);
-}
+/* .tactics-text {
+} */
 
 /* What are we doing */
 
 .our-actions {
     color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
 }
 
 /* Our Team */
-
-.team, .team-name {
+.team { 
     color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;  
 }
 
-.team-profession {
-    color: var(--title-text-color);
+.team-name {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    /* text-align: center; */
 }
+
+/* .team-profession {
+} */
 
 /* main Portfolio */
 
@@ -102,8 +144,10 @@ ul {
 
 .img-name {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
-.img-desc {
-    color: var(--title-text-color);
-}
+/* .img-desc {
+} */
