@@ -25,9 +25,14 @@ ul {
     letter-spacing: 0.03em;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
-    text-decoration: none;
+    line-height: 1.17;
+    /* text-decoration: none; */
+    text-transform: uppercase
 }   
+
+.link {
+    text-decoration: none;
+}
 
 .logo-header-studio {
     color: var(--primary-text-color);
