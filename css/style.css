@@ -12,6 +12,9 @@ ul {
    list-style: none; 
 }
 
+
+    /* --primary-text-color -#2E2F42;
+    --title-text-color- #434455*/
 :root {
     --primary-text-color: #2E2F42;
     --title-text-color: #434455;
