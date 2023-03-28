@@ -52,13 +52,9 @@ ul {
     text-decoration: none;
 }
 
-/* .nav-address a {
+.nav-address a {
     color: var(--title-text-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5; 
-    text-decoration: none;
-} */
+}
 
 .nav-address {
     font-style: normal
