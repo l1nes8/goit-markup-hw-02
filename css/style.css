@@ -171,6 +171,7 @@ ul {
     color: #4D5AE5;
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
