@@ -191,5 +191,6 @@ ul {
     line-height: 1.2;
 }
 
-/* .img-desc {
-} */
+.img-desc {
+  color: var(--title-text-color);
+} 
