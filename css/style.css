@@ -172,12 +172,17 @@ ul {
     color: #4D5AE5;
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer
 }
 
 .portfolio-button:hover, .portfolio-button:focus {
     color: #FFFFFF;
-    background-color: #4D5AE5;
+    background-color:  #404BBF;
 }
 
 .img-name {
